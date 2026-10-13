@@ -1,30 +1,30 @@
-# 🚗 Driver Drowsiness Monitoring System
+# Driver Drowsiness Monitoring System
 
 ### AI-Powered Real-Time Driver Monitoring Using Computer Vision & Deep Learning
 
-## 📌 Overview
+## Overview
 
 The **Driver Drowsiness Monitoring System** is an AI-powered application that monitors driver alertness in real time using a webcam. It combines a custom-trained Convolutional Neural Network (CNN), MediaPipe facial landmarks, and geometric feature extraction to detect prolonged eye closure, yawning, and hand movements near the mouth.
 
 The application also includes adaptive lighting detection, low-light image enhancement, browser-based voice alerts, and an interactive Streamlit dashboard with historical analytics.
 
-## ✨ Features
+## Features
 
-- 🚘 Real-time webcam monitoring
-- 👁️ CNN-based open/closed eye classification
-- 🥱 Yawning detection using CNN and Mouth Aspect Ratio (MAR)
-- 🧠 Hybrid CNN + EAR/MAR detection pipeline
-- ✋ Hand-on-mouth distraction detection
-- 🌗 Automatic Bright, Normal, Dim, and Night classification
-- 💡 CLAHE-based low-light image enhancement
-- 🔊 Browser-based voice alerts
-- 📊 Live EAR/MAR metrics and trend charts
-- 📈 Historical analytics and lighting-wise evaluation
-- 📝 CSV-based alert logging and download
-- ⚡ Batched CNN inference and cached predictions
-- 🎛️ Interactive dashboard with pause/resume controls
+- Real-time webcam monitoring
+- CNN-based open/closed eye classification
+- Yawning detection using CNN and Mouth Aspect Ratio (MAR)
+- Hybrid CNN + EAR/MAR detection pipeline
+- Hand-on-mouth distraction detection
+- Automatic Bright, Normal, Dim, and Night classification
+- CLAHE-based low-light image enhancement
+- Browser-based voice alerts
+- Live EAR/MAR metrics and trend charts
+- Historical analytics and lighting-wise evaluation
+- CSV-based alert logging and download
+- Batched CNN inference and cached predictions
+- Interactive dashboard with pause/resume controls
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Usage |
 |---|---|
@@ -38,7 +38,7 @@ The application also includes adaptive lighting detection, low-light image enhan
 | Matplotlib | Evaluation charts |
 | HTML, CSS, JavaScript | Styling and voice alerts |
 
-## 🧠 Detection Methodology
+## Detection Methodology
 
 ### 1. Eye Aspect Ratio (EAR)
 
@@ -84,7 +84,7 @@ MediaPipe Hands checks whether hand landmarks overlap the detected mouth region.
 
 CLAHE enhancement is applied automatically in Dim and Night conditions.
 
-## 🖥️ Dashboard
+## Dashboard
 
 ### Live Monitoring
 
@@ -120,29 +120,7 @@ Add your actual application screenshots to the `screenshots/` directory, then re
 
 ![Analytics Dashboard](screenshots/analytics_dashboard.png)
 
-## 📂 Project Structure
-
-```text
-Driver-Drowsiness-Monitoring-System/
-├── app.py
-├── model_arch.py
-├── train_cnn_model.py
-├── drowsiness_cnn.weights.h5
-├── class_names.txt
-├── requirements.txt
-├── README.md
-├── screenshots/
-│   ├── live_dashboard.png
-│   ├── drowsiness_alert.png
-│   └── analytics_dashboard.png
-├── comparison_summary.csv
-├── detailed_metrics_summary.csv
-└── detection_log.csv
-```
-
-> Include only files that actually exist in your repository. Keep datasets and generated logs separate when they are large or contain private information.
-
-## ⚙️ Installation
+## Installation
 
 ### Prerequisites
 
@@ -150,40 +128,6 @@ Driver-Drowsiness-Monitoring-System/
 - Webcam
 - Git
 - Trained CNN weights and matching model architecture for hybrid mode
-
-### 1. Clone the repository
-
-Replace `YOUR_USERNAME` with your GitHub username.
-
-```bash
-git clone https://github.com/YOUR_USERNAME/Driver-Drowsiness-Monitoring-System.git
-cd Driver-Drowsiness-Monitoring-System
-```
-
-### 2. Create a virtual environment
-
-**Windows**
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-**Linux / macOS**
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### 3. Install dependencies
-
-```bash
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-### 4. Run the application
 
 ```bash
 streamlit run app.py
@@ -193,7 +137,7 @@ Open the local URL displayed in the terminal.
 
 **Note:** CNN mode requires the appropriate model files. Without them, the application can use rule-based EAR/MAR detection.
 
-## 📊 Evaluation
+## Evaluation
 
 The application supports offline rule-based evaluation under four simulated lighting conditions.
 
@@ -207,7 +151,7 @@ Available outputs include:
 
 Use a separate labeled test dataset to measure generalization. Report actual performance metrics only after running and validating the evaluation.
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - Improve robustness to glasses, head movement, and occlusions
 - Evaluate on diverse drivers and real-world lighting
@@ -215,22 +159,21 @@ Use a separate labeled test dataset to measure generalization. Report actual per
 - Improve temporal smoothing and alert-state handling
 - Add automated tests and more detailed performance evaluation
 
-## 🔒 Privacy & Safety
+## Privacy & Safety
 
 - Webcam processing depends on the environment where the application runs.
 - Alert events are stored locally in `detection_log.csv` by default.
 - Do not upload private recordings or sensitive data.
 - This project is a prototype and must not be used as the sole safety mechanism in a vehicle.
 
-## 👨‍💻 Author
+## Author
 
 **Shubham Modi**
 
 *Data Science | Machine Learning | Computer Vision | Deep Learning*
 
-- GitHub: [Your GitHub Profile](https://github.com/YOUR_USERNAME)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/YOUR_PROFILE/)
+- LinkedIn: [Your LinkedIn Profile](linkedin.com/in/shubhammodi17)
 
 ---
 
-⭐ If you find this project interesting, consider giving the repository a star!
+If you find this project interesting, consider giving the repository a star!
