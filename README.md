@@ -172,7 +172,7 @@ Use a separate labeled test dataset to measure generalization. Report actual per
 
 *Data Science | Machine Learning | Computer Vision | Deep Learning*
 
-- LinkedIn: [Your LinkedIn Profile](linkedin.com/in/shubhammodi17)
+- LinkedIn: [linkedin.com/in/shubhammodi17]
 
 ---
 
