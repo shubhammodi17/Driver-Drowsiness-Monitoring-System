@@ -172,8 +172,7 @@ Use a separate labeled test dataset to measure generalization. Report actual per
 
 *Data Science | Machine Learning | Computer Vision | Deep Learning*
 
-- LinkedIn: [linkedin.com/in/shubhammodi17]
-
+- LinkedIn: www.linkedin.com/in/shubhammodi17
 ---
 
 If you find this project interesting, consider giving the repository a star!
