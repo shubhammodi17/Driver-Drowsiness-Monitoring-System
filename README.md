@@ -116,9 +116,13 @@ Add your actual application screenshots to the `screenshots/` directory, then re
 
 <img width="1920" height="2391" alt="Drowsy" src="https://github.com/user-attachments/assets/e3009756-0a6d-4821-aeec-e69aaff0ae82" />
 
+### NightVision Detect
+
+<img width="1920" height="2359" alt="NightVision" src="https://github.com/user-attachments/assets/ae8d43f8-09fd-44ff-a871-a6643f2bfb9b" />
+
 ### Analytics Dashboard
 
-![Analytics Dashboard](screenshots/analytics_dashboard.png)
+<img width="1920" height="1765" alt="Analysis" src="https://github.com/user-attachments/assets/5de3291d-56ea-446c-891b-da95f5352234" />
 
 ## Installation
 
