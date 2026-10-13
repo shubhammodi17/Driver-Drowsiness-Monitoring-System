@@ -114,7 +114,7 @@ Add your actual application screenshots to the `screenshots/` directory, then re
 
 ### Drowsiness Detection
 
-![Drowsiness Detection](screenshots/drowsiness_alert.png)
+<img width="1920" height="2391" alt="Drowsy" src="https://github.com/user-attachments/assets/e3009756-0a6d-4821-aeec-e69aaff0ae82" />
 
 ### Analytics Dashboard
 
