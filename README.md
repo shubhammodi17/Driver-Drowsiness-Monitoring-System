@@ -110,7 +110,7 @@ Add your actual application screenshots to the `screenshots/` directory, then re
 
 ### Live Dashboard
 
-![Live Dashboard](C:\Users\admin\AppData\Local\Programs\Python\Python310\Project\Drowsiness\LiveDashboard.png)
+<img width="1920" height="2339" alt="LiveDashboard" src="https://github.com/user-attachments/assets/00bab1e1-8275-42a8-8673-36759dfc2979" />
 
 ### Drowsiness Detection
 
